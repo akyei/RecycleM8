@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6DCB17A31CB9E58B003C8604 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DCB17A21CB9E58B003C8604 /* AVFoundation.framework */; };
+		6DCB17A91CB9EA8E003C8604 /* CustomizableCamera in Resources */ = {isa = PBXBuildFile; fileRef = 6DCB17A81CB9EA8E003C8604 /* CustomizableCamera */; };
+		6DCB17AE1CB9F5CB003C8604 /* CameraSessionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCB17AD1CB9F5CB003C8604 /* CameraSessionView.m */; };
+		6DCB17B01CB9F5DC003C8604 /* CaptureSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCB17AF1CB9F5DC003C8604 /* CaptureSessionManager.m */; };
+		6DCB17B21CB9F5E4003C8604 /* CameraStyleKitClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCB17B11CB9F5E4003C8604 /* CameraStyleKitClass.m */; };
+		6DCB17BA1CB9F610003C8604 /* CameraDismissButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCB17B31CB9F610003C8604 /* CameraDismissButton.m */; };
+		6DCB17BB1CB9F610003C8604 /* CameraFlashButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCB17B41CB9F610003C8604 /* CameraFlashButton.m */; };
+		6DCB17BC1CB9F610003C8604 /* CameraFocalReticule.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCB17B51CB9F610003C8604 /* CameraFocalReticule.m */; };
+		6DCB17BD1CB9F610003C8604 /* CameraShutterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCB17B61CB9F610003C8604 /* CameraShutterButton.m */; };
+		6DCB17BE1CB9F610003C8604 /* CameraToggleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCB17B71CB9F610003C8604 /* CameraToggleButton.m */; };
+		6DCB17BF1CB9F610003C8604 /* LaunchCameraButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCB17B81CB9F610003C8604 /* LaunchCameraButton.m */; };
+		6DCB17C01CB9F610003C8604 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCB17B91CB9F610003C8604 /* Constants.m */; };
+		6DCB17C21CB9F6B1003C8604 /* DefaultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCB17C11CB9F6B1003C8604 /* DefaultController.swift */; };
+		6DCB17CD1CBA3018003C8604 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCB17CC1CBA3018003C8604 /* SearchController.swift */; };
+		6DCB17D61CBA5555003C8604 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCB17D11CBA5555003C8604 /* MapViewController.m */; };
+		6DCB17D71CBA5555003C8604 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCB17D31CBA5555003C8604 /* MyTableViewController.m */; };
+		6DCB17D81CBA5555003C8604 /* PlaceAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCB17D51CBA5555003C8604 /* PlaceAnnotation.m */; };
 		6DF3EEA81CB8CA410098A6DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF3EEA71CB8CA410098A6DB /* AppDelegate.swift */; };
 		6DF3EEAA1CB8CA410098A6DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF3EEA91CB8CA410098A6DB /* ViewController.swift */; };
 		6DF3EEAD1CB8CA410098A6DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DF3EEAB1CB8CA410098A6DB /* Main.storyboard */; };
@@ -14,6 +31,11 @@
 		6DF3EEB21CB8CA410098A6DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DF3EEB01CB8CA410098A6DB /* LaunchScreen.storyboard */; };
 		6DF3EEBD1CB8CA410098A6DB /* RecycleM8Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF3EEBC1CB8CA410098A6DB /* RecycleM8Tests.swift */; };
 		6DF3EEC81CB8CA410098A6DB /* RecycleM8UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF3EEC71CB8CA410098A6DB /* RecycleM8UITests.swift */; };
+		6DF3EED61CB901B90098A6DB /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF3EED51CB901B90098A6DB /* MapViewController.swift */; };
+		6DF3EED91CB90DF70098A6DB /* DetermineItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF3EED71CB90BCE0098A6DB /* DetermineItemController.swift */; };
+		6DF3EEDD1CB94FCA0098A6DB /* vvCustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DF3EEDC1CB94FCA0098A6DB /* vvCustomTableViewCell.xib */; };
+		6DF3EEE11CB9B2C10098A6DB /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF3EEE01CB9B2C10098A6DB /* CustomTableViewCell.swift */; };
+		73BD529F852D8F72C61BEF24 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9082AB041F0E16DE9F610B46 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +56,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		38EC0958608EE773540BA714 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		6DCB17A21CB9E58B003C8604 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6DCB17A81CB9EA8E003C8604 /* CustomizableCamera */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CustomizableCamera; sourceTree = "<group>"; };
+		6DCB17AA1CB9EB07003C8604 /* CustomizableCamera-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomizableCamera-Bridging-Header.h"; sourceTree = "<group>"; };
+		6DCB17AD1CB9F5CB003C8604 /* CameraSessionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CameraSessionView.m; path = "CustomizableCamera/Camera View/CameraSessionView.m"; sourceTree = "<group>"; };
+		6DCB17AF1CB9F5DC003C8604 /* CaptureSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CaptureSessionManager.m; path = "CustomizableCamera/Model Classes/CaptureSessionManager.m"; sourceTree = "<group>"; };
+		6DCB17B11CB9F5E4003C8604 /* CameraStyleKitClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CameraStyleKitClass.m; path = "CustomizableCamera/Graphical Assets/UI Assets/CameraStyleKitClass.m"; sourceTree = "<group>"; };
+		6DCB17B31CB9F610003C8604 /* CameraDismissButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CameraDismissButton.m; path = "CustomizableCamera/Graphical Assets/CameraViewComponents/CameraDismissButton.m"; sourceTree = "<group>"; };
+		6DCB17B41CB9F610003C8604 /* CameraFlashButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CameraFlashButton.m; path = "CustomizableCamera/Graphical Assets/CameraViewComponents/CameraFlashButton.m"; sourceTree = "<group>"; };
+		6DCB17B51CB9F610003C8604 /* CameraFocalReticule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CameraFocalReticule.m; path = "CustomizableCamera/Graphical Assets/CameraViewComponents/CameraFocalReticule.m"; sourceTree = "<group>"; };
+		6DCB17B61CB9F610003C8604 /* CameraShutterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CameraShutterButton.m; path = "CustomizableCamera/Graphical Assets/CameraViewComponents/CameraShutterButton.m"; sourceTree = "<group>"; };
+		6DCB17B71CB9F610003C8604 /* CameraToggleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CameraToggleButton.m; path = "CustomizableCamera/Graphical Assets/CameraViewComponents/CameraToggleButton.m"; sourceTree = "<group>"; };
+		6DCB17B81CB9F610003C8604 /* LaunchCameraButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LaunchCameraButton.m; path = "CustomizableCamera/Graphical Assets/CameraViewComponents/LaunchCameraButton.m"; sourceTree = "<group>"; };
+		6DCB17B91CB9F610003C8604 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Constants.m; path = "CustomizableCamera/Model Classes/Constants.m"; sourceTree = "<group>"; };
+		6DCB17C11CB9F6B1003C8604 /* DefaultController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultController.swift; sourceTree = "<group>"; };
+		6DCB17CC1CBA3018003C8604 /* SearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		6DCB17D01CBA5555003C8604 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		6DCB17D11CBA5555003C8604 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		6DCB17D21CBA5555003C8604 /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
+		6DCB17D31CBA5555003C8604 /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
+		6DCB17D41CBA5555003C8604 /* PlaceAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceAnnotation.h; sourceTree = "<group>"; };
+		6DCB17D51CBA5555003C8604 /* PlaceAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceAnnotation.m; sourceTree = "<group>"; };
 		6DF3EEA41CB8CA410098A6DB /* RecycleM8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecycleM8.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DF3EEA71CB8CA410098A6DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DF3EEA91CB8CA410098A6DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +91,12 @@
 		6DF3EEC31CB8CA410098A6DB /* RecycleM8UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecycleM8UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DF3EEC71CB8CA410098A6DB /* RecycleM8UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecycleM8UITests.swift; sourceTree = "<group>"; };
 		6DF3EEC91CB8CA410098A6DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DF3EED51CB901B90098A6DB /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		6DF3EED71CB90BCE0098A6DB /* DetermineItemController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetermineItemController.swift; sourceTree = "<group>"; };
+		6DF3EEDC1CB94FCA0098A6DB /* vvCustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = vvCustomTableViewCell.xib; sourceTree = "<group>"; };
+		6DF3EEE01CB9B2C10098A6DB /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		9082AB041F0E16DE9F610B46 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE6BCB946ADEAF18478615DB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +104,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DCB17A31CB9E58B003C8604 /* AVFoundation.framework in Frameworks */,
+				73BD529F852D8F72C61BEF24 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +133,8 @@
 				6DF3EEBB1CB8CA410098A6DB /* RecycleM8Tests */,
 				6DF3EEC61CB8CA410098A6DB /* RecycleM8UITests */,
 				6DF3EEA51CB8CA410098A6DB /* Products */,
+				B689A8EEB820F3B6BA0AF38F /* Pods */,
+				853B13DD547A8CC518553DB2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +151,36 @@
 		6DF3EEA61CB8CA410098A6DB /* RecycleM8 */ = {
 			isa = PBXGroup;
 			children = (
+				6DCB17A81CB9EA8E003C8604 /* CustomizableCamera */,
 				6DF3EEA71CB8CA410098A6DB /* AppDelegate.swift */,
+				6DCB17AD1CB9F5CB003C8604 /* CameraSessionView.m */,
+				6DCB17B31CB9F610003C8604 /* CameraDismissButton.m */,
+				6DCB17B41CB9F610003C8604 /* CameraFlashButton.m */,
+				6DCB17B51CB9F610003C8604 /* CameraFocalReticule.m */,
+				6DCB17B61CB9F610003C8604 /* CameraShutterButton.m */,
+				6DCB17B71CB9F610003C8604 /* CameraToggleButton.m */,
+				6DCB17B81CB9F610003C8604 /* LaunchCameraButton.m */,
+				6DCB17B91CB9F610003C8604 /* Constants.m */,
+				6DCB17B11CB9F5E4003C8604 /* CameraStyleKitClass.m */,
+				6DCB17D01CBA5555003C8604 /* MapViewController.h */,
+				6DCB17D11CBA5555003C8604 /* MapViewController.m */,
+				6DCB17D21CBA5555003C8604 /* MyTableViewController.h */,
+				6DCB17D31CBA5555003C8604 /* MyTableViewController.m */,
+				6DCB17D41CBA5555003C8604 /* PlaceAnnotation.h */,
+				6DCB17D51CBA5555003C8604 /* PlaceAnnotation.m */,
 				6DF3EEA91CB8CA410098A6DB /* ViewController.swift */,
+				6DF3EED51CB901B90098A6DB /* MapViewController.swift */,
+				6DCB17AF1CB9F5DC003C8604 /* CaptureSessionManager.m */,
 				6DF3EEAB1CB8CA410098A6DB /* Main.storyboard */,
+				6DF3EEE01CB9B2C10098A6DB /* CustomTableViewCell.swift */,
+				6DF3EED71CB90BCE0098A6DB /* DetermineItemController.swift */,
 				6DF3EEAE1CB8CA410098A6DB /* Assets.xcassets */,
 				6DF3EEB01CB8CA410098A6DB /* LaunchScreen.storyboard */,
 				6DF3EEB31CB8CA410098A6DB /* Info.plist */,
+				6DF3EEDC1CB94FCA0098A6DB /* vvCustomTableViewCell.xib */,
+				6DCB17AA1CB9EB07003C8604 /* CustomizableCamera-Bridging-Header.h */,
+				6DCB17C11CB9F6B1003C8604 /* DefaultController.swift */,
+				6DCB17CC1CBA3018003C8604 /* SearchController.swift */,
 			);
 			path = RecycleM8;
 			sourceTree = "<group>";
@@ -125,6 +203,24 @@
 			path = RecycleM8UITests;
 			sourceTree = "<group>";
 		};
+		853B13DD547A8CC518553DB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DCB17A21CB9E58B003C8604 /* AVFoundation.framework */,
+				9082AB041F0E16DE9F610B46 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B689A8EEB820F3B6BA0AF38F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE6BCB946ADEAF18478615DB /* Pods.debug.xcconfig */,
+				38EC0958608EE773540BA714 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6DF3EECC1CB8CA410098A6DB /* Build configuration list for PBXNativeTarget "RecycleM8" */;
 			buildPhases = (
+				AE3AB268BD7166924E13CBAB /* Check Pods Manifest.lock */,
 				6DF3EEA01CB8CA410098A6DB /* Sources */,
 				6DF3EEA11CB8CA410098A6DB /* Frameworks */,
 				6DF3EEA21CB8CA410098A6DB /* Resources */,
+				EBFF487991DC1302D49D5A6B /* Embed Pods Frameworks */,
+				2DAC2226BB7A201B9E65AEDF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,7 +333,9 @@
 			files = (
 				6DF3EEB21CB8CA410098A6DB /* LaunchScreen.storyboard in Resources */,
 				6DF3EEAF1CB8CA410098A6DB /* Assets.xcassets in Resources */,
+				6DF3EEDD1CB94FCA0098A6DB /* vvCustomTableViewCell.xib in Resources */,
 				6DF3EEAD1CB8CA410098A6DB /* Main.storyboard in Resources */,
+				6DCB17A91CB9EA8E003C8604 /* CustomizableCamera in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +355,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2DAC2226BB7A201B9E65AEDF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE3AB268BD7166924E13CBAB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EBFF487991DC1302D49D5A6B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6DF3EEA01CB8CA410098A6DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DCB17BD1CB9F610003C8604 /* CameraShutterButton.m in Sources */,
+				6DCB17D71CBA5555003C8604 /* MyTableViewController.m in Sources */,
+				6DCB17BA1CB9F610003C8604 /* CameraDismissButton.m in Sources */,
+				6DCB17CD1CBA3018003C8604 /* SearchController.swift in Sources */,
+				6DCB17D61CBA5555003C8604 /* MapViewController.m in Sources */,
+				6DCB17B21CB9F5E4003C8604 /* CameraStyleKitClass.m in Sources */,
+				6DCB17BC1CB9F610003C8604 /* CameraFocalReticule.m in Sources */,
+				6DCB17AE1CB9F5CB003C8604 /* CameraSessionView.m in Sources */,
+				6DCB17D81CBA5555003C8604 /* PlaceAnnotation.m in Sources */,
+				6DCB17C01CB9F610003C8604 /* Constants.m in Sources */,
+				6DCB17BB1CB9F610003C8604 /* CameraFlashButton.m in Sources */,
+				6DF3EED91CB90DF70098A6DB /* DetermineItemController.swift in Sources */,
+				6DCB17BF1CB9F610003C8604 /* LaunchCameraButton.m in Sources */,
+				6DF3EEE11CB9B2C10098A6DB /* CustomTableViewCell.swift in Sources */,
 				6DF3EEAA1CB8CA410098A6DB /* ViewController.swift in Sources */,
+				6DCB17C21CB9F6B1003C8604 /* DefaultController.swift in Sources */,
+				6DF3EED61CB901B90098A6DB /* MapViewController.swift in Sources */,
 				6DF3EEA81CB8CA410098A6DB /* AppDelegate.swift in Sources */,
+				6DCB17B01CB9F5DC003C8604 /* CaptureSessionManager.m in Sources */,
+				6DCB17BE1CB9F610003C8604 /* CameraToggleButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,8 +522,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -393,30 +562,40 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		6DF3EECD1CB8CA410098A6DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE6BCB946ADEAF18478615DB /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				INFOPLIST_FILE = RecycleM8/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.RecycleM8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/RecycleM8/CustomizableCamera-Bridging-Header.h";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/RecycleM8/**";
 			};
 			name = Debug;
 		};
 		6DF3EECE1CB8CA410098A6DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38EC0958608EE773540BA714 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				INFOPLIST_FILE = RecycleM8/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.RecycleM8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/RecycleM8/CustomizableCamera-Bridging-Header.h";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/RecycleM8/**";
 			};
 			name = Release;
 		};
@@ -485,6 +664,7 @@
 				6DF3EECE1CB8CA410098A6DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6DF3EECF1CB8CA410098A6DB /* Build configuration list for PBXNativeTarget "RecycleM8Tests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +673,7 @@
 				6DF3EED11CB8CA410098A6DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6DF3EED21CB8CA410098A6DB /* Build configuration list for PBXNativeTarget "RecycleM8UITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +682,7 @@
 				6DF3EED41CB8CA410098A6DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
